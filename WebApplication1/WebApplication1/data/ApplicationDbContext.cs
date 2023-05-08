@@ -11,6 +11,6 @@ namespace WebApplication1.data
         {
 
         }
-        public DbSet<category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

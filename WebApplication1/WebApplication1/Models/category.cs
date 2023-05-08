@@ -2,7 +2,7 @@
 
 namespace WebApplication1.Models
 {
-    public class category
+    public class Category
     {
         [Key]
         public int Id { get; set; }
