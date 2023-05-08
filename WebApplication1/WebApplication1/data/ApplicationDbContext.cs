@@ -1,8 +1,16 @@
-﻿using System.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Data;
+using WebApplication1.Models;
 
 namespace WebApplication1.data
 {
-    public class ApplicationDbContext :  
+    public class ApplicationDbContext :  DbContext
     {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        :base(options)
+        {
+
+        }
+        public DbSet<category> Categories { get; set; }
     }
 }
