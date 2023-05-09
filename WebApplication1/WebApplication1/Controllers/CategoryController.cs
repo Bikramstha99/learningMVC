@@ -3,14 +3,14 @@ using WebApplication1.data;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
-{
+{ 
     public class CategoryController : Controller
     {
         private ApplicationDbContext _context;
 
         public CategoryController(ApplicationDbContext context)
         {
-           _context = context;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -23,6 +23,18 @@ namespace WebApplication1.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Categories.Add(category);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(category);
         }
     }
 }
