@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Acer\\OneDrive\\Desktop\\MVC\\WebApplication1\\WebApplication1\\wwwroot\\css\\superheroboottheme.css",
+      "PackagePath": "staticwebassets\\css\\superheroboottheme.css"
+    },
+    {
       "Id": "C:\\Users\\Acer\\OneDrive\\Desktop\\MVC\\WebApplication1\\WebApplication1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

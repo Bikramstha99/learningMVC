@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UXpRU4ZPtUJL04OKi3f1w4XXiRZLf+iEvO4Hd6LdRhs=",
+  "Hash": "lTBz+W42h8xds1rtwaH2XMGQtazdV1G0XPRJFphSsu8=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Acer\\OneDrive\\Desktop\\MVC\\WebApplication1\\WebApplication1\\wwwroot\\css\\superheroboottheme.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Acer\\OneDrive\\Desktop\\MVC\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/superheroboottheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\superheroboottheme.css"
     },
     {
       "Identity": "C:\\Users\\Acer\\OneDrive\\Desktop\\MVC\\WebApplication1\\WebApplication1\\wwwroot\\favicon.ico",

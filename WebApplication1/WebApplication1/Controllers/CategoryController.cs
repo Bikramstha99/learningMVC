@@ -18,5 +18,11 @@ namespace WebApplication1.Controllers
             IEnumerable<Category> categories = _context.Categories;
             return View(categories);
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
