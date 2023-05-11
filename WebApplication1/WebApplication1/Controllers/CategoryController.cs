@@ -18,7 +18,7 @@ namespace WebApplication1.Controllers
             IEnumerable<Category> categories = _context.Categories;
             return View(categories);
         }
-
+        //For add//
         [HttpGet]
         public IActionResult Create()
         {
@@ -36,6 +36,7 @@ namespace WebApplication1.Controllers
             }
             return View(category);
         }
+        //For Edit//
         [HttpGet]
         public IActionResult Edit(int? id)
         {
@@ -56,11 +57,11 @@ namespace WebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(category);
+                _context.Categories.Update(category);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(category);
+            return RedirectToAction("Index");
         }
     }
 }
