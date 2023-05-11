@@ -1,13 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Data;
-using WebApplication1.Models;
+using MyAppModel.Models;
 
-namespace WebApplication1.data
+namespace MyApp.DataAccessLayer.Data
 {
-    public class ApplicationDbContext :  DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        :base(options)
+        : base(options)
         {
 
         }

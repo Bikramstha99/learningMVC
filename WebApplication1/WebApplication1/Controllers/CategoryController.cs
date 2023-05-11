@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.data;
-using WebApplication1.Models;
+using MyApp.DataAccessLayer.Data;
+using MyAppModel.Models;
 
 namespace WebApplication1.Controllers
 { 
