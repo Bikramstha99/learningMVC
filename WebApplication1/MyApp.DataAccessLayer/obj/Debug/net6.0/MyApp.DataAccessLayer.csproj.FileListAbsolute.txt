@@ -1,0 +1,15 @@
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.DataAccessLayer.deps.json
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.DataAccessLayer.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.DataAccessLayer.pdb
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.Models.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.Models.pdb
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.csproj.CopyComplete
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\refint\MyApp.DataAccessLayer.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\MyApp.DataAccessLayer.pdb
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\MyApp.DataAccessLayer\obj\Debug\net6.0\ref\MyApp.DataAccessLayer.dll

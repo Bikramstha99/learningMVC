@@ -1,0 +1,12 @@
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\bin\Debug\net6.0\MyApp.Models.deps.json
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\bin\Debug\net6.0\MyApp.Models.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\bin\Debug\net6.0\MyApp.Models.pdb
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\MyApp.Models.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\MyApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfoInputs.cache
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfo.cs
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\MyApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\MyApp.Models.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\refint\MyApp.Models.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\MyApp.Models.pdb
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1Models\obj\Debug\net6.0\ref\MyApp.Models.dll

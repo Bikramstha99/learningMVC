@@ -287,3 +287,7 @@ C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net
 C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net6.0\MyApp.DataAccessLayer.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net6.0\MyApp.Models.dll
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net6.0\MyApp.DataAccessLayer.pdb
+C:\Users\Acer\OneDrive\Desktop\MVC\WebApplication1\WebApplication1\bin\Debug\net6.0\MyApp.Models.pdb
