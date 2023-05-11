@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Category\Class.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Category\Create - Copy.cshtml" />
+    <Content Remove="Views\Category\Edit - Copy.cshtml" />
     <Content Remove="wwwroot\css\Superherobootswatchtheme.cs" />
   </ItemGroup>
 
