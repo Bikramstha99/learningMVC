@@ -1,6 +1,5 @@
 ﻿using MyApp.DataAccessLayer.Data;
 using MyApp.DataAccessLayer.Infrastructure.IRepository;
-using MyAppModel.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,17 +8,20 @@ using System.Threading.Tasks;
 
 namespace MyApp.DataAccessLayer.Infrastructure.Repository
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class UnitOfWork : IUnitOfWork
     {
         private ApplicationDbContext _context;
-        public CategoryRepository(ApplicationDbContext context) : base(context)
+        public ICategoryRepository Category { get; private set; }
+        public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
+            Category =new CategoryRepository(context); 
         }
+        
 
-        public void Update(Category category)
+        public void Save()
         {
-            _context.Categories.Update(category);
+            _context.SaveChanges();
         }
     }
 }

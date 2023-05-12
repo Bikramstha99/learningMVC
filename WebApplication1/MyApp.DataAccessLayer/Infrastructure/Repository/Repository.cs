@@ -15,7 +15,7 @@ namespace MyApp.DataAccessLayer.Infrastructure.Repository
         private readonly ApplicationDbContext _context;
         private DbSet<T> _dbset;
         public Repository(ApplicationDbContext context)
-        {
+        { 
             _context = context;
             _dbset =_context.Set<T>();
         }
@@ -35,7 +35,7 @@ namespace MyApp.DataAccessLayer.Infrastructure.Repository
             _dbset.RemoveRange(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> predicate)
+        public T GetT(Expression<Func<T, bool>> predicate)
         {
             return _dbset.Where(predicate).FirstOrDefault();
         }
