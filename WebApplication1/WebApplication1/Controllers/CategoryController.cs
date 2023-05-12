@@ -1,23 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyApp.DataAccessLayer.Data;
-using MyApp.DataAccessLayer.Infrastructure.IRepository;
-using MyApp.DataAccessLayer.Infrastructure.Repository;
 using MyAppModel.Models;
 
 namespace WebApplication1.Controllers
 { 
     public class CategoryController : Controller
     {
-        private IUnitOfWork _unitofWork;
+        private ApplicationDbContext _context;
 
-        public CategoryController(UnitOfWork unitofWork)
+        public CategoryController(ApplicationDbContext context)
         {
-            _unitofWork =unitofWork;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> categories = _unitofWork.Category.GetAll();
+            IEnumerable<Category> categories = _context.Categories;
             return View(categories);
         }
         //For add//
@@ -32,8 +30,8 @@ namespace WebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-                _unitofWork.Category.Add(category);
-                _unitofWork.Save();
+                _context.Categories.Add(category);
+                _context.SaveChanges();
                 TempData["success"] = "Category Created Done!";
                 return RedirectToAction("Index");
             }
@@ -47,7 +45,7 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
-            var category = _unitofWork.Category.GetT(x=>x.Id==id);
+            var category = _context.Categories.Find(id);
             if (category == null)
             {
                 return NotFound();
@@ -60,8 +58,8 @@ namespace WebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-                _unitofWork.Category.Update(category);
-                _unitofWork.Save();
+                _context.Categories.Update(category);
+                _context.SaveChanges();
                 TempData["success"] = "Category Updated Done!";
                 return RedirectToAction("Index");
             }
@@ -74,7 +72,7 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
-            var category = _unitofWork.Category.GetT(x=>x.Id==id);
+            var category = _context.Categories.Find(id);
             if (category == null)
             {
                 return NotFound();
@@ -85,13 +83,13 @@ namespace WebApplication1.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteData(int? id)
         {
-            var category = _unitofWork.Category.GetT(x => x.Id == id);
+            var category = _context.Categories.Find(id);
             if (category == null)
             {
                 return NotFound();
             }
-            _unitofWork.Category.Delete(category);
-            _unitofWork.Save();
+            _context.Categories.Remove(category);
+            _context.SaveChanges();
             TempData["success"] = "Category Delete Done!";
             return RedirectToAction("Index");
         }
